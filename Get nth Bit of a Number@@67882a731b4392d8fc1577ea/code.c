@@ -4,7 +4,7 @@ int main() {
     int a,b ;
     scanf("%d", &a);
     int LSB=a>>b;
-    if(LSB&1) {
+    if(a&LSB) {
         printf("1");
     }
     else {
