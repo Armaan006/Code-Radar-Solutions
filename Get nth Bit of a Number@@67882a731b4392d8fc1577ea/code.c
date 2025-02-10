@@ -2,7 +2,7 @@
 
 int main() {
     int a,b ;
-    scanf("%d", &a);
+    scanf("%d %d", &a, &b);
     int LSB=(a>>b)&1;
     printf("%d", LSB);
     return 0;
