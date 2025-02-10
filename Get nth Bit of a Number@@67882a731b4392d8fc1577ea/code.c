@@ -3,12 +3,7 @@
 int main() {
     int a,b ;
     scanf("%d", &a);
-    int LSB=a>>b;
-    if(a&1) {
-        printf("1");
-    }
-    else {
-        printf("0");
-    }
+    int LSB=a>>b&1;
+    printf("", LSB)
     return 0;
 }
