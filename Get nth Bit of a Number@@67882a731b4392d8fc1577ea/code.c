@@ -4,6 +4,6 @@ int main() {
     int a,b ;
     scanf("%d", &a);
     int LSB=a>>b&1;
-    printf("", LSB)
+    printf("", LSB);
     return 0;
 }
