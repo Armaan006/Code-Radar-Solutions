@@ -3,7 +3,7 @@
 int main() {
     int age,b;
     scanf("%d %d", &age, &b);
-    if(age>=18 && b) {
+    if(age>=18) {
         printf("Eligible");
     }
     else {
