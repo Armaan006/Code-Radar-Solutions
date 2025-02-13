@@ -8,7 +8,7 @@ int main() {
         for(j=1; j<=N; j++){
             print("* ");
         }
-        print("\n ");
+        print("\n");
     }
     return 0;
 }
