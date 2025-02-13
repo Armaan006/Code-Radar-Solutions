@@ -9,13 +9,13 @@ int main() {
     else if(ch==B) {
         printf("Good");
     }
-    if(ch==C) {
+    else if(ch==C) {
         printf("Average");
     }
-    if(ch==D) {
+    else if(ch==D) {
         printf("Below Average");
     }
-    if(ch==F) {
+    else if(ch==F) {
         printf("Fail");
     }
     return 0;
